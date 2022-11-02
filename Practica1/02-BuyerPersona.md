@@ -3,7 +3,7 @@
 Caso: AbogaBot
 El buyer persona representa a nuestro cliente ideal
 
-**Buyer persona** | 
+
  ------------ | ------------- 
 Rango de edad | 28 - 45 años
 Nivel educativo | Licenciatura y Posgrado
