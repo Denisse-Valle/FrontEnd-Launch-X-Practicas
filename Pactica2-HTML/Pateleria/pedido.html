@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav id="navegador">
+          <ul type="none"> 
+          <li><a href="index.html">I N I C I O</a></li>
+          <li><a href="pasteles.html">P A S T E L E S</a></li>
+          <li><a href="pedido.html">P E D I D O</a></li>
+          </ul> 
+    </nav>
+    <section>
+        <h1>P E D I D O</h1>
+        <!--El cliente de la pastelería necesita poner en un formulario su pedido-->
+      <form>
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="quantity">Telefono:</label><br>
+        <input type="number" id="quantity" name="quantity" min="1" max="12"><br><br>
+        <label for="email">Correo electronico:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label >Describe tu pastel:</label><br>
+        <textarea name="message" rows="10" cols="30">
+        </textarea><br><br>
+
+        <label >Selecciona el o los sabores para tu pastel:</label><br>
+        <input type="checkbox" id="sabor1" name="sabor1" value="Moka">
+        <label for="sabor1"> Moka</label><br>
+        <input type="checkbox" id="sabor2" name="sabor2" value="Chocolate">
+        <label for="sabor2"> Chocolate</label><br>
+        <input type="checkbox" id="sabor3" name="sabor3" value="Vainilla">
+        <label for="sabor3"> Vainilla</label><br>
+        <input type="checkbox" id="sabor4" name="sabor4" value="Zanahoria">
+        <label for="sabor4"> Zanahoria</label><br><br>
+
+        <label >Selecciona el o los adornos para tu pastel:</label><br>
+        <input type="checkbox" id="adorno1" name="adorno1" value="Velas">
+        <label for="adorno1"> Velas</label><br>
+        <input type="checkbox" id="adorno2" name="adorno2" value="Fondant">
+        <label for="adorno2"> Fondant</label><br>
+        <input type="checkbox" id="adorno3" name="adorno3" value="Rosas">
+        <label for="adorno3"> Rosas</label><br>
+        <input type="checkbox" id="adorno4" name="adorno4" value="Feliz cumpleaños">
+        <label for="adorno4"> Feliz cumpleaños</label><br>
+        <input type="checkbox" id="adorno5" name="adorno5" value="Frase">
+        <label for="adorno5"> Frase</label><br><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,32 @@
+/* **************Barra de navegacion**************** */
+#navegador ul{
+    list-style-type: none;
+    text-align: right;
+    background-color:gray;
+    padding: 20px;
+    padding-right: 70px;
+    margin:6px;
+ }
+ 
+ #navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 06px 0 0;
+    border-color:WHITE;
+ }
+ 
+ #navegador li a {
+    padding: 2px 7px 2px 7px;
+    font-weight: bold;
+    font-family:'ARIAL';
+    color:black;
+    background-color: white;
+    text-decoration: none;
+ }
+ 
+ #navegador li a:hover{
+    background-color: #333333;
+    color: #ffffff;
+ }
+ 
+ 
